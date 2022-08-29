@@ -1,11 +1,26 @@
 {
   "name": "typescript-first-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4nsur/TS_project_1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/M4nsur/TS_project_1/issues"
+  },
+  "homepage": "https://github.com/M4nsur/TS_project_1#readme",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0"
+  }
 }
