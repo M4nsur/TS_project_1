@@ -16,11 +16,12 @@
     "url": "https://github.com/M4nsur/TS_project_1/issues"
   },
   "homepage": "https://github.com/M4nsur/TS_project_1#readme",
-  "description": "",
   "dependencies": {
+    "@types/google.maps": "^3.50.0",
     "parcel": "^2.7.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.4.0"
-  }
+  },
+  "description": ""
 }
