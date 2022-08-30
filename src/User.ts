@@ -1,11 +1,15 @@
-import { faker } from '@faker-js/faker'
+import { faker } from "@faker-js/faker"
+import { CheckMap } from './CustomMap';
 
-export class User {
+
+export class User implements CheckMap{
     name: string
     location: {
         lat: number;
         lng: number;
     }
+
+    color: string = "black"
 
     constructor() {
         this.name = faker.name.firstName();
@@ -13,6 +17,10 @@ export class User {
             lat: parseFloat(faker.address.latitude()),
             lng: parseFloat(faker.address.longitude())
         }
+    }
+
+    markerContent(): string {
+        return `пользователь ${this.name} находится тут`
     }
 } 
 
